@@ -125,10 +125,6 @@ Alireza Fath [1], Christoph Sauter [1], Yi Liu [1], Brandon Gamble [1], Dylan Bu
 3. Department of Electrical and Biomedical Engineering, University of Vermont
 *Author to whom correspondence should be addressed.
 
-## Acknowledgments
-
-- The UNet implementation is built upon the work by [Yakhyokhuja Valikhujaev](https://github.com/yakupov/crackseg)
-
 
 ## Citation
 
@@ -137,6 +133,23 @@ If you use this code or method in your research, please cite our paper:
 ```
 Fath, A.; Sauter, C.; Liu, Y.; Gamble, B.; Burns, D.; Trombley, E.; Sathi, S.K.R.; Xia, T.; Huston, D. HeSARIC: A Heterogeneous Cyber–Physical Robotic Swarm Framework for Structural Health Monitoring with Augmented Reality Representation. Micromachines 2025, 16, 460. https://doi.org/10.3390/mi16040460
 ```
+
+## Previous Models Used in the development
+
+- The UNet implementation is built upon the work by [Yakhyokhuja Valikhujaev](https://github.com/yakupov/crackseg)
+- Ronneberger, O.; Fischer, P.; Brox, T. U-net: Convolutional networks for biomedical image segmentation. In Proceedings of the Medical Image Computing and Computer-Assisted Intervention–MICCAI 2015: 18th International Conference, Munich, Germany, 5–9 October 2015; Proceedings, part III 18. Springer: Berlin/Heidelberg, Germany, 2015; pp. 234–241. 
+- Ha, K. Crack_Segmentation. Available online: https://github.com/khanhha/crack_segmentation (accessed on 1 April 2024).
+- Zhang, L.; Yang, F.; Zhang, Y.D.; Zhu, Y.J. Road crack detection using deep convolutional neural network. In Proceedings of the 2016 IEEE International Conference on Image Processing (ICIP), Phoenix, AZ, USA, 25–28 September 2016; IEEE: Piscataway, NJ, USA, 2016; pp. 3708–3712. 
+- Yang, F.; Zhang, L.; Yu, S.; Prokhorov, D.; Mei, X.; Ling, H. Feature pyramid and hierarchical boosting network for pavement crack detection. IEEE Trans. Intell. Transp. Syst. 2019, 21, 1525–1535. 
+- Eisenbach, M.; Stricker, R.; Seichter, D.; Amende, K.; Debes, K.; Sesselmann, M.; Ebersbach, D.; Stoeckert, U.; Gross, H.-M. How to get pavement distress detection ready for deep learning? In A systematic approach. In Proceedings of the 2017 International Joint Conference on Neural Networks (IJCNN), Anchorage, AK, USA, 14–19 May 2017; IEEE: Piscataway, NJ, USA, 2017; pp. 2039–2047. 
+- Shi, Y.; Cui, L.; Qi, Z.; Meng, F.; Chen, Z. Automatic road crack detection using random structured forests. IEEE Trans. Intell. Transp. Syst. 2016, 17, 3434–3445. 
+- Amhaz, R.; Chambon, S.; Idier, J.; Baltazart, V. Automatic crack detection on two-dimensional pavement images: An algorithm based on minimal path selection. IEEE Trans. Intell. Transp. Syst. 2016, 17, 2718–2729. 
+- Zou, Q.; Cao, Y.; Li, Q.; Mao, Q.; Wang, S. CrackTree: Automatic crack detection from pavement images. Pattern Recognit. Lett. 2012, 33, 227–238. 
+- Aidonchuk, A. Cracks Segmentation Dataset. Available online: https://github.com/aidonchuk/cracks_segmentation_dataset (accessed on 25 June 2024).
+- Leo, Y. DeepCrack. Available online: https://github.com/yhlleo/DeepCrack (accessed on 25 June 2024).
+- Lab, C.R. CCNY Robotics Lab. Available online: https://github.com/CCNYRoboticsLab/concreteIn_inpection_VGGF (accessed on 25 June 2024).
+- Özgenel, Ç.F. Concrete crack segmentation dataset. Mendeley Data 2019, 1, 2019. [Google Scholar]
+- Wang, K.; Fang, B.; Qian, J.; Yang, S.; Zhou, X.; Zhou, J. Perspective transformation data augmentation for object detection. IEEE Access 2019, 8, 4935–4943. [Google Scholar] [CrossRef]
 
 ## License
 
