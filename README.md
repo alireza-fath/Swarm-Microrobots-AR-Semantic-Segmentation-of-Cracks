@@ -134,7 +134,7 @@ If you use this code or method in your research, please cite our paper:
 Fath, A.; Sauter, C.; Liu, Y.; Gamble, B.; Burns, D.; Trombley, E.; Sathi, S.K.R.; Xia, T.; Huston, D. HeSARIC: A Heterogeneous Cyber–Physical Robotic Swarm Framework for Structural Health Monitoring with Augmented Reality Representation. Micromachines 2025, 16, 460. https://doi.org/10.3390/mi16040460
 ```
 
-## Previous Models Used in the development
+## Previous Models and Resources Used in the Model Training
 
 - The UNet implementation is built upon the work by [Yakhyokhuja Valikhujaev] ([https://github.com/yakupov/crackseg](https://github.com/yakhyo/crack-segmentation))
 - Ronneberger, O.; Fischer, P.; Brox, T. U-net: Convolutional networks for biomedical image segmentation. In Proceedings of the Medical Image Computing and Computer-Assisted Intervention–MICCAI 2015: 18th International Conference, Munich, Germany, 5–9 October 2015; Proceedings, part III 18. Springer: Berlin/Heidelberg, Germany, 2015; pp. 234–241. 
