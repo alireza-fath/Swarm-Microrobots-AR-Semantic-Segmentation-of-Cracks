@@ -118,11 +118,11 @@ Our approach uses a modified UNet architecture for semantic segmentation of crac
 ## Contributors
 
 This work was developed by:
-by Alireza Fath 1,Christoph Sauter 1,Yi Liu 1,Brandon Gamble 1,Dylan Burns 1,Evan Trombley 1,Sai Krishna Reddy Sathi 1,2ORCID,Tian Xia 3 andDryver Huston 1,
+Alireza Fath 1,Christoph Sauter 1,Yi Liu 1,Brandon Gamble 1,Dylan Burns 1,Evan Trombley 1,Sai Krishna Reddy Sathi [1,2],Tian Xia 3 andD ryver Huston 1,
 
-1. Department of Mechanical Engineering, University of Vermont, Burlington, VT 05405, USA
-2. Department of Mechanical Engineering, Indian Institute of Technology Madras, Chennai 600036, India
-3. Department of Electrical and Biomedical Engineering, University of Vermont, Burlington, VT 05405, USA
+1. Department of Mechanical Engineering, University of Vermont
+2. Department of Mechanical Engineering, Indian Institute of Technology Madras
+3. Department of Electrical and Biomedical Engineering, University of Vermont
 *Author to whom correspondence should be addressed.
 
 ## Acknowledgments
