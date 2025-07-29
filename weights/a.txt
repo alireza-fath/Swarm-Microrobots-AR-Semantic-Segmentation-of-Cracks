@@ -1,1 +1,1 @@
-Download the weights .pt file from the release and place it in this folder.
+Download the weights .pt file from the "release" and place it in this folder.
