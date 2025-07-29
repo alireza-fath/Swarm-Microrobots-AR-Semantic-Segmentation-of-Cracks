@@ -148,7 +148,7 @@ Fath, A.; Sauter, C.; Liu, Y.; Gamble, B.; Burns, D.; Trombley, E.; Sathi, S.K.R
 - Aidonchuk, A. Cracks Segmentation Dataset. Available online: https://github.com/aidonchuk/cracks_segmentation_dataset (accessed on 25 June 2024).
 - Leo, Y. DeepCrack. Available online: https://github.com/yhlleo/DeepCrack (accessed on 25 June 2024).
 - Lab, C.R. CCNY Robotics Lab. Available online: https://github.com/CCNYRoboticsLab/concreteIn_inpection_VGGF (accessed on 25 June 2024).
-- Özgenel, Ç.F. Concrete crack segmentation dataset. Mendeley Data 2019, 1, 2019. [Google Scholar]
+- Özgenel, Ç.F. Concrete crack segmentation dataset. Mendeley Data 2019, 1, 2019. 
 - Wang, K.; Fang, B.; Qian, J.; Yang, S.; Zhou, X.; Zhou, J. Perspective transformation data augmentation for object detection. IEEE Access 2019, 8, 4935–4943. 
 
 ## License
