@@ -136,7 +136,7 @@ Fath, A.; Sauter, C.; Liu, Y.; Gamble, B.; Burns, D.; Trombley, E.; Sathi, S.K.R
 
 ## Previous Models Used in the development
 
-- The UNet implementation is built upon the work by [Yakhyokhuja Valikhujaev]([https://github.com/yakupov/crackseg](https://github.com/yakhyo/crackseg.git))
+- The UNet implementation is built upon the work by [Yakhyokhuja Valikhujaev] (https://github.com/yakupov/crackseg](https://github.com/yakhyo/crackseg.git)
 - Ronneberger, O.; Fischer, P.; Brox, T. U-net: Convolutional networks for biomedical image segmentation. In Proceedings of the Medical Image Computing and Computer-Assisted Intervention–MICCAI 2015: 18th International Conference, Munich, Germany, 5–9 October 2015; Proceedings, part III 18. Springer: Berlin/Heidelberg, Germany, 2015; pp. 234–241. 
 - Ha, K. Crack_Segmentation. Available online: https://github.com/khanhha/crack_segmentation (accessed on 1 April 2024).
 - Zhang, L.; Yang, F.; Zhang, Y.D.; Zhu, Y.J. Road crack detection using deep convolutional neural network. In Proceedings of the 2016 IEEE International Conference on Image Processing (ICIP), Phoenix, AZ, USA, 25–28 September 2016; IEEE: Piscataway, NJ, USA, 2016; pp. 3708–3712. 
@@ -149,7 +149,7 @@ Fath, A.; Sauter, C.; Liu, Y.; Gamble, B.; Burns, D.; Trombley, E.; Sathi, S.K.R
 - Leo, Y. DeepCrack. Available online: https://github.com/yhlleo/DeepCrack (accessed on 25 June 2024).
 - Lab, C.R. CCNY Robotics Lab. Available online: https://github.com/CCNYRoboticsLab/concreteIn_inpection_VGGF (accessed on 25 June 2024).
 - Özgenel, Ç.F. Concrete crack segmentation dataset. Mendeley Data 2019, 1, 2019. [Google Scholar]
-- Wang, K.; Fang, B.; Qian, J.; Yang, S.; Zhou, X.; Zhou, J. Perspective transformation data augmentation for object detection. IEEE Access 2019, 8, 4935–4943. [Google Scholar] [CrossRef]
+- Wang, K.; Fang, B.; Qian, J.; Yang, S.; Zhou, X.; Zhou, J. Perspective transformation data augmentation for object detection. IEEE Access 2019, 8, 4935–4943. 
 
 ## License
 
