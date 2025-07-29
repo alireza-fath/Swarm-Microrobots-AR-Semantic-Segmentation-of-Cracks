@@ -136,7 +136,7 @@ Fath, A.; Sauter, C.; Liu, Y.; Gamble, B.; Burns, D.; Trombley, E.; Sathi, S.K.R
 
 ## Previous Models Used in the development
 
-- The UNet implementation is built upon the work by [Yakhyokhuja Valikhujaev] (https://github.com/yakupov/crackseg](https://github.com/yakhyo/crackseg.git)
+- The UNet implementation is built upon the work by [Yakhyokhuja Valikhujaev] ([https://github.com/yakupov/crackseg](https://github.com/yakhyo/crack-segmentation))
 - Ronneberger, O.; Fischer, P.; Brox, T. U-net: Convolutional networks for biomedical image segmentation. In Proceedings of the Medical Image Computing and Computer-Assisted Intervention–MICCAI 2015: 18th International Conference, Munich, Germany, 5–9 October 2015; Proceedings, part III 18. Springer: Berlin/Heidelberg, Germany, 2015; pp. 234–241. 
 - Ha, K. Crack_Segmentation. Available online: https://github.com/khanhha/crack_segmentation (accessed on 1 April 2024).
 - Zhang, L.; Yang, F.; Zhang, Y.D.; Zhu, Y.J. Road crack detection using deep convolutional neural network. In Proceedings of the 2016 IEEE International Conference on Image Processing (ICIP), Phoenix, AZ, USA, 25–28 September 2016; IEEE: Piscataway, NJ, USA, 2016; pp. 3708–3712. 
