@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains the implementation for "Swarm Microrobots for Crack Semantic Segmentation and Merging in Hard-to-Reach areas for Inspection using devices such as Phone, Laptop, and Augmented Reality Headset" published in [MDPI Micromachines](https://www.mdpi.com/2072-666X/16/4/460). Our approach leverages a swarm of microrobots equipped with cameras to detect cracks in narrow spaces, using semantic segmentation and augmented reality for visualization and control.
+This repository contains the implementation for "HeSARIC: A Heterogeneous Cyber–Physical Robotic Swarm Framework for Structural Health Monitoring with Augmented Reality Representation" published in [MDPI Micromachines](https://www.mdpi.com/2072-666X/16/4/460). Our approach leverages a swarm of microrobots equipped with cameras to detect cracks in narrow spaces, using semantic segmentation and augmented reality for visualization and control.
 
 ![System Overview](https://www.mdpi.com/micromachines/micromachines-16-00460/article_deploy/html/images/micromachines-16-00460-g001.png)
 
