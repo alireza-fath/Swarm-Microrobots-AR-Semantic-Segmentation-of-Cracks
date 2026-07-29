@@ -52,32 +52,68 @@ The main functionality is demonstrated in the Jupyter notebook `aug-model/Crack-
 ### Basic Usage Example
 
 ```python
-import torch
-from crackseg.models import UNet
-from PIL import Image
-import numpy as np
-from inference import preprocess
+import sys
+from pathlib import Path
 
-# Load model
+import numpy as np
+import matplotlib.pyplot as plt
+from PIL import Image
+import torch
+
+# Change only this filename if needed.
+input_path = "uploads/test.jpg"
+model_weight = "weights/finetuned-all-occlude.pt"
+
+# Import the project model.
+sys.path.insert(0, str(Path("aug-model").resolve()))
+from crackseg.models.unet import UNet
+
+
+# Load model.
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-checkpoint = torch.load("weights/finetuned-all-occlude.pt", map_location=device)
+checkpoint = torch.load(model_weight, map_location=device, weights_only=False)
+
 model = UNet(in_channels=3, out_channels=2)
 model.load_state_dict(checkpoint["model"].float().state_dict())
 model.eval()
 model.to(device)
 
-# Load and preprocess image
-input_image = Image.open("path/to/image.jpg")
-tensor_image = preprocess(input_image).unsqueeze(0).to(device)
 
-# Inference
-SENSITIVITY = -10  # Adjust threshold for crack detection
+# Load and preprocess image.
+input_image = Image.open(input_path).convert("RGB")
+input_image = input_image.resize((240, 240))
+
+image_array = np.asarray(input_image, dtype=np.float32) / 255.0
+tensor_image = torch.from_numpy(
+    image_array.transpose(2, 0, 1)
+).unsqueeze(0).to(device)
+
+
+# Inference.
+SENSITIVITY = -10
+
 with torch.no_grad():
     output = model(tensor_image).cpu()
-    output = output[:,0,:,:] < output[:,1,:,:] + SENSITIVITY
+    mask = output[:, 0, :, :] < output[:, 1, :, :] + SENSITIVITY
 
-# Get mask
-mask = output[0].long().squeeze().numpy()
+mask = mask[0].numpy().astype(np.uint8)
+
+
+# Show input and predicted mask.
+plt.figure(figsize=(10, 5))
+
+plt.subplot(1, 2, 1)
+plt.imshow(input_image)
+plt.title("Input image")
+plt.axis("off")
+
+plt.subplot(1, 2, 2)
+plt.imshow(mask, cmap="gray")
+plt.title("Predicted crack mask")
+plt.axis("off")
+
+plt.tight_layout()
+plt.show()
 ```
 
 ### Multi-Camera Integration
