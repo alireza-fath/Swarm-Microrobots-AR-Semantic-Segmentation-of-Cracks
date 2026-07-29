@@ -97,7 +97,7 @@ with torch.no_grad():
     mask = output[:, 0, :, :] < output[:, 1, :, :] + SENSITIVITY
 
 mask = mask[0].numpy().astype(np.uint8)
-
+Image.fromarray(mask * 255).save("uploads/test_mask.png")
 
 # Show input and predicted mask.
 plt.figure(figsize=(10, 5))
